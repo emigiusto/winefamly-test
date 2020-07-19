@@ -45,7 +45,9 @@ class WineSelection extends Component {
                       <ul className="wine-tags-container">
                           <li className="wine-flag"><img src="./img/icons/fr.png" alt="Wine Flag"/></li>
                           <li className="wine-tag">Redwine</li>
+                          <li><i class="fa fa-circle" aria-hidden="true"></i></li>
                           <li className="wine-tag">Beaujolais</li>
+                          <li><i class="fa fa-circle" aria-hidden="true"></i></li>
                           <li className="wine-tag">France</li>
                       </ul>
                       <div className="rating" onClick={this.showForm}>

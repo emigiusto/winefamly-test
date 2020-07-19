@@ -130,6 +130,12 @@
                 color: var(--textGrey);
                 cursor: pointer;
             }
+            .fa-circle{
+                font-size: 5px;
+                color: var(--textGrey);
+                margin-left: 8px;
+            }
+
             
         /* Wine rating */
         .rating{
@@ -155,7 +161,7 @@
             margin-top: 20px; 
         }
             .aromas-container > p{
-                font-size: 18px;
+                font-size: 17px;
                 font-weight: 600;
                 letter-spacing: .2px;
                 color: var(--textGrey);
@@ -372,6 +378,7 @@
         -moz-box-shadow: 0px 0px 4px 0px rgba(236,236,236,1);
         box-shadow: 0px 0px 4px 0px rgb(206, 201, 201);
         padding: 8px 8px 8px 8px;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -402,6 +409,12 @@
             padding:8px;
             font-size: 16px;
             border-color: var(--textGrey);
+        }
+        .form-group > textarea:focus{
+            outline: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none
         }
         .form-group > textarea::placeholder {
             color: var(--mainBlack);  
