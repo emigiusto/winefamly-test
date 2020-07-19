@@ -30,7 +30,6 @@ class App extends Component {
       return (
           <div>
               <header><img src="./img/menu.png" alt="Header Famly"/></header>
-
               <div className="container wine-wrapper">
               <div className="row">
                 <div className="col-sm-5 col-md-3 wine-picture-col">

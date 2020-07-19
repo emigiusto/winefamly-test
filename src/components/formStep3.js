@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class FormStep3 extends Component {
     render() {
-        if (this.props.currentStep !== 3) { // Prop: The current step
+        if (this.props.currentStep !== 3) {
             return null
           }
         return (
